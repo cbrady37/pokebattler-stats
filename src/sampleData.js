@@ -1,0 +1,37 @@
+export const sampleStats = {
+  battles: [
+    { id: 1, mode: '2v2', winner: true, damage: 1230, dps: 54, kos: 2, deaths: 1 },
+    { id: 2, mode: '3v3', winner: false, damage: 1410, dps: 49, kos: 1, deaths: 3 },
+    { id: 3, mode: 'Royale', winner: true, damage: 2850, dps: 68, kos: 4, deaths: 2 },
+    { id: 4, mode: 'Boss', winner: true, damage: 1920, dps: 62, kos: 3, deaths: 1 },
+    { id: 5, mode: 'Tournament', winner: false, damage: 1700, dps: 58, kos: 1, deaths: 2 },
+  ],
+  pokemon: [
+    {
+      name: 'Pikachu',
+      totalDamage: 2190,
+      avgDps: 61,
+      kos: 4,
+      avgKos: 0.8,
+      deaths: 3,
+      avgDeaths: 0.6,
+      wins: 3,
+      battles: 5,
+      moveTypes: { electric: 1700, normal: 490 },
+      statusDamage: 160,
+    },
+    {
+      name: 'Charizard',
+      totalDamage: 2740,
+      avgDps: 65,
+      kos: 5,
+      avgKos: 1,
+      deaths: 4,
+      avgDeaths: 0.8,
+      wins: 3,
+      battles: 5,
+      moveTypes: { fire: 1860, flying: 470, dragon: 410 },
+      statusDamage: 210,
+    },
+  ],
+};
