@@ -1,0 +1,3338 @@
+﻿{
+    "Bulbasaur":  [
+                      "stage1",
+                      "starter"
+                  ],
+    "Ivysaur":  [
+                    "stage2",
+                    "starter"
+                ],
+    "Venusaur":  [
+                     "stage3",
+                     "starter"
+                 ],
+    "Charmander":  [
+                       "stage1",
+                       "starter"
+                   ],
+    "Charmeleon":  [
+                       "stage2",
+                       "starter"
+                   ],
+    "Charizard":  [
+                      "stage3",
+                      "starter",
+                      "fan_favorite"
+                  ],
+    "Squirtle":  [
+                     "stage1",
+                     "starter"
+                 ],
+    "Wartortle":  [
+                      "stage2",
+                      "starter"
+                  ],
+    "Blastoise":  [
+                      "stage3",
+                      "starter",
+                      "fan_favorite"
+                  ],
+    "Caterpie":  [
+                     "stage1"
+                 ],
+    "Metapod":  [
+                    "stage2"
+                ],
+    "Butterfree":  [
+                       "stage3"
+                   ],
+    "Weedle":  [
+                   "stage1"
+               ],
+    "Kakuna":  [
+                   "stage2"
+               ],
+    "Beedrill":  [
+                     "stage3"
+                 ],
+    "Pidgey":  [
+                   "stage1"
+               ],
+    "Pidgeotto":  [
+                      "stage2"
+                  ],
+    "Pidgeot":  [
+                    "stage3"
+                ],
+    "Rattata":  [
+                    "stage1"
+                ],
+    "Raticate":  [
+                     "stage2"
+                 ],
+    "Spearow":  [
+                    "stage1"
+                ],
+    "Fearow":  [
+                   "stage2"
+               ],
+    "Ekans":  [
+                  "stage1"
+              ],
+    "Arbok":  [
+                  "stage2"
+              ],
+    "Pikachu":  [
+                    "stage2",
+                    "fan_favorite"
+                ],
+    "Raichu":  [
+                   "stage3"
+               ],
+    "Sandshrew":  [
+                      "stage1"
+                  ],
+    "Sandslash":  [
+                      "stage2"
+                  ],
+    "Nidoran-F":  [
+                      "stage1"
+                  ],
+    "Nidorina":  [
+                     "stage2"
+                 ],
+    "Nidoqueen":  [
+                      "stage3"
+                  ],
+    "Nidoran-M":  [
+                      "stage1"
+                  ],
+    "Nidorino":  [
+                     "stage2"
+                 ],
+    "Nidoking":  [
+                     "stage3"
+                 ],
+    "Clefairy":  [
+                     "stage2",
+                     "fan_favorite"
+                 ],
+    "Clefable":  [
+                     "stage3"
+                 ],
+    "Vulpix":  [
+                   "stage1"
+               ],
+    "Ninetales":  [
+                      "stage2"
+                  ],
+    "Jigglypuff":  [
+                       "stage2",
+                       "fan_favorite"
+                   ],
+    "Wigglytuff":  [
+                       "stage3"
+                   ],
+    "Zubat":  [
+                  "stage1"
+              ],
+    "Golbat":  [
+                   "stage2"
+               ],
+    "Oddish":  [
+                   "stage1"
+               ],
+    "Gloom":  [
+                  "stage2"
+              ],
+    "Vileplume":  [
+                      "stage3"
+                  ],
+    "Paras":  [
+                  "stage1"
+              ],
+    "Parasect":  [
+                     "stage2"
+                 ],
+    "Venonat":  [
+                    "stage1"
+                ],
+    "Venomoth":  [
+                     "stage2"
+                 ],
+    "Diglett":  [
+                    "stage1"
+                ],
+    "Dugtrio":  [
+                    "stage2"
+                ],
+    "Meowth":  [
+                   "stage1",
+                   "fan_favorite"
+               ],
+    "Persian":  [
+                    "stage2"
+                ],
+    "Psyduck":  [
+                    "stage1",
+                    "fan_favorite"
+                ],
+    "Golduck":  [
+                    "stage2"
+                ],
+    "Mankey":  [
+                   "stage1"
+               ],
+    "Primeape":  [
+                     "stage2"
+                 ],
+    "Growlithe":  [
+                      "stage1"
+                  ],
+    "Arcanine":  [
+                     "stage2",
+                     "fan_favorite"
+                 ],
+    "Poliwag":  [
+                    "stage1"
+                ],
+    "Poliwhirl":  [
+                      "stage2"
+                  ],
+    "Poliwrath":  [
+                      "stage3"
+                  ],
+    "Abra":  [
+                 "stage1"
+             ],
+    "Kadabra":  [
+                    "stage2"
+                ],
+    "Alakazam":  [
+                     "stage3"
+                 ],
+    "Machop":  [
+                   "stage1"
+               ],
+    "Machoke":  [
+                    "stage2"
+                ],
+    "Machamp":  [
+                    "stage3"
+                ],
+    "Bellsprout":  [
+                       "stage1"
+                   ],
+    "Weepinbell":  [
+                       "stage2"
+                   ],
+    "Victreebel":  [
+                       "stage3"
+                   ],
+    "Tentacool":  [
+                      "stage1"
+                  ],
+    "Tentacruel":  [
+                       "stage2"
+                   ],
+    "Geodude":  [
+                    "stage1"
+                ],
+    "Graveler":  [
+                     "stage2"
+                 ],
+    "Golem":  [
+                  "stage3"
+              ],
+    "Ponyta":  [
+                   "stage1"
+               ],
+    "Rapidash":  [
+                     "stage2"
+                 ],
+    "Slowpoke":  [
+                     "stage1"
+                 ],
+    "Slowbro":  [
+                    "stage2"
+                ],
+    "Magnemite":  [
+                      "stage1"
+                  ],
+    "Magneton":  [
+                     "stage2"
+                 ],
+    "Farfetch\u0027d":  [
+                            "stage1"
+                        ],
+    "Doduo":  [
+                  "stage1"
+              ],
+    "Dodrio":  [
+                   "stage2"
+               ],
+    "Seel":  [
+                 "stage1"
+             ],
+    "Dewgong":  [
+                    "stage2"
+                ],
+    "Grimer":  [
+                   "stage1"
+               ],
+    "Muk":  [
+                "stage2"
+            ],
+    "Shellder":  [
+                     "stage1"
+                 ],
+    "Cloyster":  [
+                     "stage2"
+                 ],
+    "Gastly":  [
+                   "stage1"
+               ],
+    "Haunter":  [
+                    "stage2"
+                ],
+    "Gengar":  [
+                   "stage3",
+                   "fan_favorite"
+               ],
+    "Onix":  [
+                 "stage1"
+             ],
+    "Drowzee":  [
+                    "stage1"
+                ],
+    "Hypno":  [
+                  "stage2"
+              ],
+    "Krabby":  [
+                   "stage1"
+               ],
+    "Kingler":  [
+                    "stage2"
+                ],
+    "Voltorb":  [
+                    "stage1"
+                ],
+    "Electrode":  [
+                      "stage2"
+                  ],
+    "Exeggcute":  [
+                      "stage1"
+                  ],
+    "Exeggutor":  [
+                      "stage2"
+                  ],
+    "Cubone":  [
+                   "stage1"
+               ],
+    "Marowak":  [
+                    "stage2"
+                ],
+    "Hitmonlee":  [
+                      "stage2"
+                  ],
+    "Hitmonchan":  [
+                       "stage2"
+                   ],
+    "Lickitung":  [
+                      "stage1"
+                  ],
+    "Koffing":  [
+                    "stage1"
+                ],
+    "Weezing":  [
+                    "stage2"
+                ],
+    "Rhyhorn":  [
+                    "stage1"
+                ],
+    "Rhydon":  [
+                   "stage2"
+               ],
+    "Chansey":  [
+                    "stage2",
+                    "fan_favorite"
+                ],
+    "Tangela":  [
+                    "stage1"
+                ],
+    "Kangaskhan":  [
+                       "solo"
+                   ],
+    "Horsea":  [
+                   "stage1"
+               ],
+    "Seadra":  [
+                   "stage2"
+               ],
+    "Goldeen":  [
+                    "stage1"
+                ],
+    "Seaking":  [
+                    "stage2"
+                ],
+    "Staryu":  [
+                   "stage1"
+               ],
+    "Starmie":  [
+                    "stage2"
+                ],
+    "Mr. Mime":  [
+                     "stage2"
+                 ],
+    "Scyther":  [
+                    "stage1"
+                ],
+    "Jynx":  [
+                 "stage2"
+             ],
+    "Electabuzz":  [
+                       "stage2"
+                   ],
+    "Magmar":  [
+                   "stage2"
+               ],
+    "Pinsir":  [
+                   "solo"
+               ],
+    "Tauros":  [
+                   "solo"
+               ],
+    "Magikarp":  [
+                     "stage1",
+                     "fan_favorite"
+                 ],
+    "Gyarados":  [
+                     "stage2",
+                     "fan_favorite"
+                 ],
+    "Lapras":  [
+                   "solo",
+                   "fan_favorite"
+               ],
+    "Ditto":  [
+                  "solo",
+                  "fan_favorite"
+              ],
+    "Eevee":  [
+                  "stage1",
+                  "eevee_line",
+                  "fan_favorite"
+              ],
+    "Vaporeon":  [
+                     "stage2",
+                     "eevee_line"
+                 ],
+    "Jolteon":  [
+                    "stage2",
+                    "eevee_line"
+                ],
+    "Flareon":  [
+                    "stage2",
+                    "eevee_line"
+                ],
+    "Porygon":  [
+                    "stage1"
+                ],
+    "Omanyte":  [
+                    "stage1",
+                    "fossil"
+                ],
+    "Omastar":  [
+                    "stage2",
+                    "fossil"
+                ],
+    "Kabuto":  [
+                   "stage1",
+                   "fossil"
+               ],
+    "Kabutops":  [
+                     "stage2",
+                     "fossil"
+                 ],
+    "Aerodactyl":  [
+                       "solo",
+                       "fossil",
+                       "fan_favorite"
+                   ],
+    "Snorlax":  [
+                    "stage2",
+                    "fan_favorite"
+                ],
+    "Articuno":  [
+                     "solo",
+                     "legendary"
+                 ],
+    "Zapdos":  [
+                   "solo",
+                   "legendary"
+               ],
+    "Moltres":  [
+                    "solo",
+                    "legendary"
+                ],
+    "Dratini":  [
+                    "stage1",
+                    "pseudo_legendary"
+                ],
+    "Dragonair":  [
+                      "stage2",
+                      "pseudo_legendary"
+                  ],
+    "Dragonite":  [
+                      "stage3",
+                      "pseudo_legendary"
+                  ],
+    "Mewtwo":  [
+                   "solo",
+                   "legendary",
+                   "fan_favorite"
+               ],
+    "Mew":  [
+                "solo",
+                "mythical",
+                "fan_favorite"
+            ],
+    "Chikorita":  [
+                      "stage1",
+                      "starter"
+                  ],
+    "Bayleef":  [
+                    "stage2",
+                    "starter"
+                ],
+    "Meganium":  [
+                     "stage3",
+                     "starter"
+                 ],
+    "Cyndaquil":  [
+                      "stage1",
+                      "starter"
+                  ],
+    "Quilava":  [
+                    "stage2",
+                    "starter"
+                ],
+    "Typhlosion":  [
+                       "stage3",
+                       "starter",
+                       "fan_favorite"
+                   ],
+    "Totodile":  [
+                     "stage1",
+                     "starter"
+                 ],
+    "Croconaw":  [
+                     "stage2",
+                     "starter"
+                 ],
+    "Feraligatr":  [
+                       "stage3",
+                       "starter",
+                       "fan_favorite"
+                   ],
+    "Sentret":  [
+                    "stage1"
+                ],
+    "Furret":  [
+                   "stage2"
+               ],
+    "Hoothoot":  [
+                     "stage1"
+                 ],
+    "Noctowl":  [
+                    "stage2"
+                ],
+    "Ledyba":  [
+                   "stage1"
+               ],
+    "Ledian":  [
+                   "stage2"
+               ],
+    "Spinarak":  [
+                     "stage1"
+                 ],
+    "Ariados":  [
+                    "stage2"
+                ],
+    "Crobat":  [
+                   "stage3"
+               ],
+    "Chinchou":  [
+                     "stage1"
+                 ],
+    "Lanturn":  [
+                    "stage2"
+                ],
+    "Pichu":  [
+                  "stage1"
+              ],
+    "Cleffa":  [
+                   "stage1"
+               ],
+    "Igglybuff":  [
+                      "stage1"
+                  ],
+    "Togepi":  [
+                   "stage1"
+               ],
+    "Togetic":  [
+                    "stage2"
+                ],
+    "Natu":  [
+                 "stage1"
+             ],
+    "Xatu":  [
+                 "stage2"
+             ],
+    "Mareep":  [
+                   "stage1"
+               ],
+    "Flaaffy":  [
+                    "stage2"
+                ],
+    "Ampharos":  [
+                     "stage3"
+                 ],
+    "Bellossom":  [
+                      "stage3"
+                  ],
+    "Marill":  [
+                   "stage2"
+               ],
+    "Azumarill":  [
+                      "stage3"
+                  ],
+    "Sudowoodo":  [
+                      "stage2"
+                  ],
+    "Politoed":  [
+                     "stage3"
+                 ],
+    "Hoppip":  [
+                   "stage1"
+               ],
+    "Skiploom":  [
+                     "stage2"
+                 ],
+    "Jumpluff":  [
+                     "stage3"
+                 ],
+    "Aipom":  [
+                  "stage1"
+              ],
+    "Sunkern":  [
+                    "stage1"
+                ],
+    "Sunflora":  [
+                     "stage2"
+                 ],
+    "Yanma":  [
+                  "stage1"
+              ],
+    "Wooper":  [
+                   "stage1"
+               ],
+    "Quagsire":  [
+                     "stage2"
+                 ],
+    "Espeon":  [
+                   "stage2",
+                   "eevee_line"
+               ],
+    "Umbreon":  [
+                    "stage2",
+                    "eevee_line"
+                ],
+    "Murkrow":  [
+                    "stage1"
+                ],
+    "Slowking":  [
+                     "stage2"
+                 ],
+    "Misdreavus":  [
+                       "stage1"
+                   ],
+    "Unown":  [
+                  "solo"
+              ],
+    "Wobbuffet":  [
+                      "stage2"
+                  ],
+    "Girafarig":  [
+                      "stage1"
+                  ],
+    "Pineco":  [
+                   "stage1"
+               ],
+    "Forretress":  [
+                       "stage2"
+                   ],
+    "Dunsparce":  [
+                      "stage1"
+                  ],
+    "Gligar":  [
+                   "stage1"
+               ],
+    "Steelix":  [
+                    "stage2"
+                ],
+    "Snubbull":  [
+                     "stage1"
+                 ],
+    "Granbull":  [
+                     "stage2"
+                 ],
+    "Qwilfish":  [
+                     "stage1"
+                 ],
+    "Scizor":  [
+                   "stage2"
+               ],
+    "Shuckle":  [
+                    "solo"
+                ],
+    "Heracross":  [
+                      "solo"
+                  ],
+    "Sneasel":  [
+                    "stage1"
+                ],
+    "Teddiursa":  [
+                      "stage1"
+                  ],
+    "Ursaring":  [
+                     "stage2"
+                 ],
+    "Slugma":  [
+                   "stage1"
+               ],
+    "Magcargo":  [
+                     "stage2"
+                 ],
+    "Swinub":  [
+                   "stage1"
+               ],
+    "Piloswine":  [
+                      "stage2"
+                  ],
+    "Corsola":  [
+                    "stage1"
+                ],
+    "Remoraid":  [
+                     "stage1"
+                 ],
+    "Octillery":  [
+                      "stage2"
+                  ],
+    "Delibird":  [
+                     "solo"
+                 ],
+    "Mantine":  [
+                    "stage2"
+                ],
+    "Skarmory":  [
+                     "solo"
+                 ],
+    "Houndour":  [
+                     "stage1"
+                 ],
+    "Houndoom":  [
+                     "stage2"
+                 ],
+    "Kingdra":  [
+                    "stage3"
+                ],
+    "Phanpy":  [
+                   "stage1"
+               ],
+    "Donphan":  [
+                    "stage2"
+                ],
+    "Porygon2":  [
+                     "stage2"
+                 ],
+    "Stantler":  [
+                     "stage1"
+                 ],
+    "Smeargle":  [
+                     "solo"
+                 ],
+    "Tyrogue":  [
+                    "stage1"
+                ],
+    "Hitmontop":  [
+                      "stage2"
+                  ],
+    "Smoochum":  [
+                     "stage1"
+                 ],
+    "Elekid":  [
+                   "stage1"
+               ],
+    "Magby":  [
+                  "stage1"
+              ],
+    "Miltank":  [
+                    "solo"
+                ],
+    "Blissey":  [
+                    "stage3"
+                ],
+    "Raikou":  [
+                   "solo",
+                   "legendary"
+               ],
+    "Entei":  [
+                  "solo",
+                  "legendary"
+              ],
+    "Suicune":  [
+                    "solo",
+                    "legendary"
+                ],
+    "Larvitar":  [
+                     "stage1",
+                     "pseudo_legendary"
+                 ],
+    "Pupitar":  [
+                    "stage2",
+                    "pseudo_legendary"
+                ],
+    "Tyranitar":  [
+                      "stage3",
+                      "pseudo_legendary"
+                  ],
+    "Lugia":  [
+                  "solo",
+                  "legendary"
+              ],
+    "Ho-Oh":  [
+                  "solo",
+                  "legendary"
+              ],
+    "Celebi":  [
+                   "solo",
+                   "mythical"
+               ],
+    "Treecko":  [
+                    "stage1",
+                    "starter"
+                ],
+    "Grovyle":  [
+                    "stage2",
+                    "starter"
+                ],
+    "Sceptile":  [
+                     "stage3",
+                     "starter"
+                 ],
+    "Torchic":  [
+                    "stage1",
+                    "starter"
+                ],
+    "Combusken":  [
+                      "stage2",
+                      "starter"
+                  ],
+    "Blaziken":  [
+                     "stage3",
+                     "starter"
+                 ],
+    "Mudkip":  [
+                   "stage1",
+                   "starter"
+               ],
+    "Marshtomp":  [
+                      "stage2",
+                      "starter"
+                  ],
+    "Swampert":  [
+                     "stage3",
+                     "starter"
+                 ],
+    "Poochyena":  [
+                      "stage1"
+                  ],
+    "Mightyena":  [
+                      "stage2"
+                  ],
+    "Zigzagoon":  [
+                      "stage1"
+                  ],
+    "Linoone":  [
+                    "stage2"
+                ],
+    "Wurmple":  [
+                    "stage1"
+                ],
+    "Silcoon":  [
+                    "stage2"
+                ],
+    "Beautifly":  [
+                      "stage3"
+                  ],
+    "Cascoon":  [
+                    "stage2"
+                ],
+    "Dustox":  [
+                   "stage3"
+               ],
+    "Lotad":  [
+                  "stage1"
+              ],
+    "Lombre":  [
+                   "stage2"
+               ],
+    "Ludicolo":  [
+                     "stage3"
+                 ],
+    "Seedot":  [
+                   "stage1"
+               ],
+    "Nuzleaf":  [
+                    "stage2"
+                ],
+    "Shiftry":  [
+                    "stage3"
+                ],
+    "Taillow":  [
+                    "stage1"
+                ],
+    "Swellow":  [
+                    "stage2"
+                ],
+    "Wingull":  [
+                    "stage1"
+                ],
+    "Pelipper":  [
+                     "stage2"
+                 ],
+    "Ralts":  [
+                  "stage1"
+              ],
+    "Kirlia":  [
+                   "stage2"
+               ],
+    "Gardevoir":  [
+                      "stage3"
+                  ],
+    "Surskit":  [
+                    "stage1"
+                ],
+    "Masquerain":  [
+                       "stage2"
+                   ],
+    "Shroomish":  [
+                      "stage1"
+                  ],
+    "Breloom":  [
+                    "stage2"
+                ],
+    "Slakoth":  [
+                    "stage1"
+                ],
+    "Vigoroth":  [
+                     "stage2"
+                 ],
+    "Slaking":  [
+                    "stage3"
+                ],
+    "Nincada":  [
+                    "stage1"
+                ],
+    "Ninjask":  [
+                    "stage2"
+                ],
+    "Shedinja":  [
+                     "stage2"
+                 ],
+    "Whismur":  [
+                    "stage1"
+                ],
+    "Loudred":  [
+                    "stage2"
+                ],
+    "Exploud":  [
+                    "stage3"
+                ],
+    "Makuhita":  [
+                     "stage1"
+                 ],
+    "Hariyama":  [
+                     "stage2"
+                 ],
+    "Azurill":  [
+                    "stage1"
+                ],
+    "Nosepass":  [
+                     "stage1"
+                 ],
+    "Skitty":  [
+                   "stage1"
+               ],
+    "Delcatty":  [
+                     "stage2"
+                 ],
+    "Sableye":  [
+                    "solo"
+                ],
+    "Mawile":  [
+                   "solo"
+               ],
+    "Aron":  [
+                 "stage1"
+             ],
+    "Lairon":  [
+                   "stage2"
+               ],
+    "Aggron":  [
+                   "stage3"
+               ],
+    "Meditite":  [
+                     "stage1"
+                 ],
+    "Medicham":  [
+                     "stage2"
+                 ],
+    "Electrike":  [
+                      "stage1"
+                  ],
+    "Manectric":  [
+                      "stage2"
+                  ],
+    "Plusle":  [
+                   "solo"
+               ],
+    "Minun":  [
+                  "solo"
+              ],
+    "Volbeat":  [
+                    "solo"
+                ],
+    "Illumise":  [
+                     "solo"
+                 ],
+    "Roselia":  [
+                    "stage2"
+                ],
+    "Gulpin":  [
+                   "stage1"
+               ],
+    "Swalot":  [
+                   "stage2"
+               ],
+    "Carvanha":  [
+                     "stage1"
+                 ],
+    "Sharpedo":  [
+                     "stage2"
+                 ],
+    "Wailmer":  [
+                    "stage1"
+                ],
+    "Wailord":  [
+                    "stage2"
+                ],
+    "Numel":  [
+                  "stage1"
+              ],
+    "Camerupt":  [
+                     "stage2"
+                 ],
+    "Torkoal":  [
+                    "solo"
+                ],
+    "Spoink":  [
+                   "stage1"
+               ],
+    "Grumpig":  [
+                    "stage2"
+                ],
+    "Spinda":  [
+                   "solo"
+               ],
+    "Trapinch":  [
+                     "stage1"
+                 ],
+    "Vibrava":  [
+                    "stage2"
+                ],
+    "Flygon":  [
+                   "stage3"
+               ],
+    "Cacnea":  [
+                   "stage1"
+               ],
+    "Cacturne":  [
+                     "stage2"
+                 ],
+    "Swablu":  [
+                   "stage1"
+               ],
+    "Altaria":  [
+                    "stage2"
+                ],
+    "Zangoose":  [
+                     "solo"
+                 ],
+    "Seviper":  [
+                    "solo"
+                ],
+    "Lunatone":  [
+                     "solo"
+                 ],
+    "Solrock":  [
+                    "solo"
+                ],
+    "Barboach":  [
+                     "stage1"
+                 ],
+    "Whiscash":  [
+                     "stage2"
+                 ],
+    "Corphish":  [
+                     "stage1"
+                 ],
+    "Crawdaunt":  [
+                      "stage2"
+                  ],
+    "Baltoy":  [
+                   "stage1"
+               ],
+    "Claydol":  [
+                    "stage2"
+                ],
+    "Lileep":  [
+                   "stage1",
+                   "fossil"
+               ],
+    "Cradily":  [
+                    "stage2",
+                    "fossil"
+                ],
+    "Anorith":  [
+                    "stage1",
+                    "fossil"
+                ],
+    "Armaldo":  [
+                    "stage2",
+                    "fossil"
+                ],
+    "Feebas":  [
+                   "stage1"
+               ],
+    "Milotic":  [
+                    "stage2"
+                ],
+    "Castform":  [
+                     "solo"
+                 ],
+    "Kecleon":  [
+                    "solo"
+                ],
+    "Shuppet":  [
+                    "stage1"
+                ],
+    "Banette":  [
+                    "stage2"
+                ],
+    "Duskull":  [
+                    "stage1"
+                ],
+    "Dusclops":  [
+                     "stage2"
+                 ],
+    "Tropius":  [
+                    "solo"
+                ],
+    "Chimecho":  [
+                     "stage2"
+                 ],
+    "Absol":  [
+                  "solo"
+              ],
+    "Wynaut":  [
+                   "stage1"
+               ],
+    "Snorunt":  [
+                    "stage1"
+                ],
+    "Glalie":  [
+                   "stage2"
+               ],
+    "Spheal":  [
+                   "stage1"
+               ],
+    "Sealeo":  [
+                   "stage2"
+               ],
+    "Walrein":  [
+                    "stage3"
+                ],
+    "Clamperl":  [
+                     "stage1"
+                 ],
+    "Huntail":  [
+                    "stage2"
+                ],
+    "Gorebyss":  [
+                     "stage2"
+                 ],
+    "Relicanth":  [
+                      "solo"
+                  ],
+    "Luvdisc":  [
+                    "solo"
+                ],
+    "Bagon":  [
+                  "stage1",
+                  "pseudo_legendary"
+              ],
+    "Shelgon":  [
+                    "stage2",
+                    "pseudo_legendary"
+                ],
+    "Salamence":  [
+                      "stage3",
+                      "pseudo_legendary"
+                  ],
+    "Beldum":  [
+                   "stage1",
+                   "pseudo_legendary"
+               ],
+    "Metang":  [
+                   "stage2",
+                   "pseudo_legendary"
+               ],
+    "Metagross":  [
+                      "stage3",
+                      "pseudo_legendary"
+                  ],
+    "Regirock":  [
+                     "solo",
+                     "legendary"
+                 ],
+    "Regice":  [
+                   "solo",
+                   "legendary"
+               ],
+    "Registeel":  [
+                      "solo",
+                      "legendary"
+                  ],
+    "Latias":  [
+                   "solo",
+                   "legendary"
+               ],
+    "Latios":  [
+                   "solo",
+                   "legendary"
+               ],
+    "Kyogre":  [
+                   "solo",
+                   "legendary"
+               ],
+    "Groudon":  [
+                    "solo",
+                    "legendary"
+                ],
+    "Rayquaza":  [
+                     "solo",
+                     "legendary"
+                 ],
+    "Jirachi":  [
+                    "solo",
+                    "mythical"
+                ],
+    "Deoxys":  [
+                   "solo",
+                   "mythical"
+               ],
+    "Turtwig":  [
+                    "stage1",
+                    "starter"
+                ],
+    "Grotle":  [
+                   "stage2",
+                   "starter"
+               ],
+    "Torterra":  [
+                     "stage3",
+                     "starter"
+                 ],
+    "Chimchar":  [
+                     "stage1",
+                     "starter"
+                 ],
+    "Monferno":  [
+                     "stage2",
+                     "starter"
+                 ],
+    "Infernape":  [
+                      "stage3",
+                      "starter"
+                  ],
+    "Piplup":  [
+                   "stage1",
+                   "starter"
+               ],
+    "Prinplup":  [
+                     "stage2",
+                     "starter"
+                 ],
+    "Empoleon":  [
+                     "stage3",
+                     "starter"
+                 ],
+    "Starly":  [
+                   "stage1"
+               ],
+    "Staravia":  [
+                     "stage2"
+                 ],
+    "Staraptor":  [
+                      "stage3"
+                  ],
+    "Bidoof":  [
+                   "stage1"
+               ],
+    "Bibarel":  [
+                    "stage2"
+                ],
+    "Kricketot":  [
+                      "stage1"
+                  ],
+    "Kricketune":  [
+                       "stage2"
+                   ],
+    "Shinx":  [
+                  "stage1"
+              ],
+    "Luxio":  [
+                  "stage2"
+              ],
+    "Luxray":  [
+                   "stage3"
+               ],
+    "Budew":  [
+                  "stage1"
+              ],
+    "Roserade":  [
+                     "stage3"
+                 ],
+    "Cranidos":  [
+                     "stage1",
+                     "fossil"
+                 ],
+    "Rampardos":  [
+                      "stage2",
+                      "fossil"
+                  ],
+    "Shieldon":  [
+                     "stage1",
+                     "fossil"
+                 ],
+    "Bastiodon":  [
+                      "stage2",
+                      "fossil"
+                  ],
+    "Burmy":  [
+                  "stage1"
+              ],
+    "Wormadam":  [
+                     "stage2"
+                 ],
+    "Mothim":  [
+                   "stage2"
+               ],
+    "Combee":  [
+                   "stage1"
+               ],
+    "Vespiquen":  [
+                      "stage2"
+                  ],
+    "Pachirisu":  [
+                      "solo"
+                  ],
+    "Buizel":  [
+                   "stage1"
+               ],
+    "Floatzel":  [
+                     "stage2"
+                 ],
+    "Cherubi":  [
+                    "stage1"
+                ],
+    "Cherrim":  [
+                    "stage2"
+                ],
+    "Shellos":  [
+                    "stage1"
+                ],
+    "Gastrodon":  [
+                      "stage2"
+                  ],
+    "Ambipom":  [
+                    "stage2"
+                ],
+    "Drifloon":  [
+                     "stage1"
+                 ],
+    "Drifblim":  [
+                     "stage2"
+                 ],
+    "Buneary":  [
+                    "stage1"
+                ],
+    "Lopunny":  [
+                    "stage2"
+                ],
+    "Mismagius":  [
+                      "stage2"
+                  ],
+    "Honchkrow":  [
+                      "stage2"
+                  ],
+    "Glameow":  [
+                    "stage1"
+                ],
+    "Purugly":  [
+                    "stage2"
+                ],
+    "Chingling":  [
+                      "stage1"
+                  ],
+    "Stunky":  [
+                   "stage1"
+               ],
+    "Skuntank":  [
+                     "stage2"
+                 ],
+    "Bronzor":  [
+                    "stage1"
+                ],
+    "Bronzong":  [
+                     "stage2"
+                 ],
+    "Bonsly":  [
+                   "stage1"
+               ],
+    "Mime Jr.":  [
+                     "stage1"
+                 ],
+    "Happiny":  [
+                    "stage1"
+                ],
+    "Chatot":  [
+                   "solo"
+               ],
+    "Spiritomb":  [
+                      "solo"
+                  ],
+    "Gible":  [
+                  "stage1",
+                  "pseudo_legendary"
+              ],
+    "Gabite":  [
+                   "stage2",
+                   "pseudo_legendary"
+               ],
+    "Garchomp":  [
+                     "stage3",
+                     "pseudo_legendary"
+                 ],
+    "Munchlax":  [
+                     "stage1"
+                 ],
+    "Riolu":  [
+                  "stage1"
+              ],
+    "Lucario":  [
+                    "stage2"
+                ],
+    "Hippopotas":  [
+                       "stage1"
+                   ],
+    "Hippowdon":  [
+                      "stage2"
+                  ],
+    "Skorupi":  [
+                    "stage1"
+                ],
+    "Drapion":  [
+                    "stage2"
+                ],
+    "Croagunk":  [
+                     "stage1"
+                 ],
+    "Toxicroak":  [
+                      "stage2"
+                  ],
+    "Carnivine":  [
+                      "solo"
+                  ],
+    "Finneon":  [
+                    "stage1"
+                ],
+    "Lumineon":  [
+                     "stage2"
+                 ],
+    "Mantyke":  [
+                    "stage1"
+                ],
+    "Snover":  [
+                   "stage1"
+               ],
+    "Abomasnow":  [
+                      "stage2"
+                  ],
+    "Weavile":  [
+                    "stage2",
+                    "fan_favorite"
+                ],
+    "Magnezone":  [
+                      "stage3"
+                  ],
+    "Lickilicky":  [
+                       "stage2"
+                   ],
+    "Rhyperior":  [
+                      "stage3"
+                  ],
+    "Tangrowth":  [
+                      "stage2"
+                  ],
+    "Electivire":  [
+                       "stage3"
+                   ],
+    "Magmortar":  [
+                      "stage3"
+                  ],
+    "Togekiss":  [
+                     "stage3"
+                 ],
+    "Yanmega":  [
+                    "stage2"
+                ],
+    "Leafeon":  [
+                    "stage2",
+                    "eevee_line"
+                ],
+    "Glaceon":  [
+                    "stage2",
+                    "eevee_line"
+                ],
+    "Gliscor":  [
+                    "stage2"
+                ],
+    "Mamoswine":  [
+                      "stage3"
+                  ],
+    "Porygon-Z":  [
+                      "stage3"
+                  ],
+    "Gallade":  [
+                    "stage3"
+                ],
+    "Probopass":  [
+                      "stage2"
+                  ],
+    "Dusknoir":  [
+                     "stage3"
+                 ],
+    "Froslass":  [
+                     "stage2"
+                 ],
+    "Rotom":  [
+                  "solo"
+              ],
+    "Uxie":  [
+                 "solo",
+                 "legendary"
+             ],
+    "Mesprit":  [
+                    "solo",
+                    "legendary"
+                ],
+    "Azelf":  [
+                  "solo",
+                  "legendary"
+              ],
+    "Dialga":  [
+                   "solo",
+                   "legendary"
+               ],
+    "Palkia":  [
+                   "solo",
+                   "legendary"
+               ],
+    "Heatran":  [
+                    "solo",
+                    "legendary"
+                ],
+    "Regigigas":  [
+                      "solo",
+                      "legendary"
+                  ],
+    "Giratina":  [
+                     "solo",
+                     "legendary"
+                 ],
+    "Cresselia":  [
+                      "solo",
+                      "legendary"
+                  ],
+    "Phione":  [
+                   "stage1",
+                   "mythical"
+               ],
+    "Manaphy":  [
+                    "stage2",
+                    "mythical"
+                ],
+    "Darkrai":  [
+                    "solo",
+                    "mythical"
+                ],
+    "Shaymin":  [
+                    "solo",
+                    "mythical"
+                ],
+    "Arceus":  [
+                   "solo",
+                   "mythical"
+               ],
+    "Victini":  [
+                    "solo",
+                    "mythical"
+                ],
+    "Snivy":  [
+                  "stage1",
+                  "starter"
+              ],
+    "Servine":  [
+                    "stage2",
+                    "starter"
+                ],
+    "Serperior":  [
+                      "stage3",
+                      "starter"
+                  ],
+    "Tepig":  [
+                  "stage1",
+                  "starter"
+              ],
+    "Pignite":  [
+                    "stage2",
+                    "starter"
+                ],
+    "Emboar":  [
+                   "stage3",
+                   "starter"
+               ],
+    "Oshawott":  [
+                     "stage1",
+                     "starter"
+                 ],
+    "Dewott":  [
+                   "stage2",
+                   "starter"
+               ],
+    "Samurott":  [
+                     "stage3",
+                     "starter"
+                 ],
+    "Patrat":  [
+                   "stage1"
+               ],
+    "Watchog":  [
+                    "stage2"
+                ],
+    "Lillipup":  [
+                     "stage1"
+                 ],
+    "Herdier":  [
+                    "stage2"
+                ],
+    "Stoutland":  [
+                      "stage3"
+                  ],
+    "Purrloin":  [
+                     "stage1"
+                 ],
+    "Liepard":  [
+                    "stage2"
+                ],
+    "Pansage":  [
+                    "stage1"
+                ],
+    "Simisage":  [
+                     "stage2"
+                 ],
+    "Pansear":  [
+                    "stage1"
+                ],
+    "Simisear":  [
+                     "stage2"
+                 ],
+    "Panpour":  [
+                    "stage1"
+                ],
+    "Simipour":  [
+                     "stage2"
+                 ],
+    "Munna":  [
+                  "stage1"
+              ],
+    "Musharna":  [
+                     "stage2"
+                 ],
+    "Pidove":  [
+                   "stage1"
+               ],
+    "Tranquill":  [
+                      "stage2"
+                  ],
+    "Unfezant":  [
+                     "stage3"
+                 ],
+    "Blitzle":  [
+                    "stage1"
+                ],
+    "Zebstrika":  [
+                      "stage2"
+                  ],
+    "Roggenrola":  [
+                       "stage1"
+                   ],
+    "Boldore":  [
+                    "stage2"
+                ],
+    "Gigalith":  [
+                     "stage3"
+                 ],
+    "Woobat":  [
+                   "stage1"
+               ],
+    "Swoobat":  [
+                    "stage2"
+                ],
+    "Drilbur":  [
+                    "stage1"
+                ],
+    "Excadrill":  [
+                      "stage2"
+                  ],
+    "Audino":  [
+                   "solo"
+               ],
+    "Timburr":  [
+                    "stage1"
+                ],
+    "Gurdurr":  [
+                    "stage2"
+                ],
+    "Conkeldurr":  [
+                       "stage3"
+                   ],
+    "Tympole":  [
+                    "stage1"
+                ],
+    "Palpitoad":  [
+                      "stage2"
+                  ],
+    "Seismitoad":  [
+                       "stage3"
+                   ],
+    "Throh":  [
+                  "solo"
+              ],
+    "Sawk":  [
+                 "solo"
+             ],
+    "Sewaddle":  [
+                     "stage1"
+                 ],
+    "Swadloon":  [
+                     "stage2"
+                 ],
+    "Leavanny":  [
+                     "stage3"
+                 ],
+    "Venipede":  [
+                     "stage1"
+                 ],
+    "Whirlipede":  [
+                       "stage2"
+                   ],
+    "Scolipede":  [
+                      "stage3"
+                  ],
+    "Cottonee":  [
+                     "stage1"
+                 ],
+    "Whimsicott":  [
+                       "stage2"
+                   ],
+    "Petilil":  [
+                    "stage1"
+                ],
+    "Lilligant":  [
+                      "stage2"
+                  ],
+    "Basculin":  [
+                     "stage1"
+                 ],
+    "Sandile":  [
+                    "stage1"
+                ],
+    "Krokorok":  [
+                     "stage2"
+                 ],
+    "Krookodile":  [
+                       "stage3"
+                   ],
+    "Darumaka":  [
+                     "stage1"
+                 ],
+    "Darmanitan":  [
+                       "stage2"
+                   ],
+    "Maractus":  [
+                     "solo"
+                 ],
+    "Dwebble":  [
+                    "stage1"
+                ],
+    "Crustle":  [
+                    "stage2"
+                ],
+    "Scraggy":  [
+                    "stage1"
+                ],
+    "Scrafty":  [
+                    "stage2"
+                ],
+    "Sigilyph":  [
+                     "solo"
+                 ],
+    "Yamask":  [
+                   "stage1"
+               ],
+    "Cofagrigus":  [
+                       "stage2"
+                   ],
+    "Tirtouga":  [
+                     "stage1",
+                     "fossil"
+                 ],
+    "Carracosta":  [
+                       "stage2",
+                       "fossil"
+                   ],
+    "Archen":  [
+                   "stage1",
+                   "fossil"
+               ],
+    "Archeops":  [
+                     "stage2",
+                     "fossil"
+                 ],
+    "Trubbish":  [
+                     "stage1"
+                 ],
+    "Garbodor":  [
+                     "stage2"
+                 ],
+    "Zorua":  [
+                  "stage1"
+              ],
+    "Zoroark":  [
+                    "stage2"
+                ],
+    "Minccino":  [
+                     "stage1"
+                 ],
+    "Cinccino":  [
+                     "stage2"
+                 ],
+    "Gothita":  [
+                    "stage1"
+                ],
+    "Gothorita":  [
+                      "stage2"
+                  ],
+    "Gothitelle":  [
+                       "stage3"
+                   ],
+    "Solosis":  [
+                    "stage1"
+                ],
+    "Duosion":  [
+                    "stage2"
+                ],
+    "Reuniclus":  [
+                      "stage3"
+                  ],
+    "Ducklett":  [
+                     "stage1"
+                 ],
+    "Swanna":  [
+                   "stage2"
+               ],
+    "Vanillite":  [
+                      "stage1"
+                  ],
+    "Vanillish":  [
+                      "stage2"
+                  ],
+    "Vanilluxe":  [
+                      "stage3"
+                  ],
+    "Deerling":  [
+                     "stage1"
+                 ],
+    "Sawsbuck":  [
+                     "stage2"
+                 ],
+    "Emolga":  [
+                   "solo"
+               ],
+    "Karrablast":  [
+                       "stage1"
+                   ],
+    "Escavalier":  [
+                       "stage2"
+                   ],
+    "Foongus":  [
+                    "stage1"
+                ],
+    "Amoonguss":  [
+                      "stage2"
+                  ],
+    "Frillish":  [
+                     "stage1"
+                 ],
+    "Jellicent":  [
+                      "stage2"
+                  ],
+    "Alomomola":  [
+                      "solo"
+                  ],
+    "Joltik":  [
+                   "stage1"
+               ],
+    "Galvantula":  [
+                       "stage2"
+                   ],
+    "Ferroseed":  [
+                      "stage1"
+                  ],
+    "Ferrothorn":  [
+                       "stage2"
+                   ],
+    "Klink":  [
+                  "stage1"
+              ],
+    "Klang":  [
+                  "stage2"
+              ],
+    "Klinklang":  [
+                      "stage3"
+                  ],
+    "Tynamo":  [
+                   "stage1"
+               ],
+    "Eelektrik":  [
+                      "stage2"
+                  ],
+    "Eelektross":  [
+                       "stage3"
+                   ],
+    "Elgyem":  [
+                   "stage1"
+               ],
+    "Beheeyem":  [
+                     "stage2"
+                 ],
+    "Litwick":  [
+                    "stage1"
+                ],
+    "Lampent":  [
+                    "stage2"
+                ],
+    "Chandelure":  [
+                       "stage3"
+                   ],
+    "Axew":  [
+                 "stage1"
+             ],
+    "Fraxure":  [
+                    "stage2"
+                ],
+    "Haxorus":  [
+                    "stage3"
+                ],
+    "Cubchoo":  [
+                    "stage1"
+                ],
+    "Beartic":  [
+                    "stage2"
+                ],
+    "Cryogonal":  [
+                      "solo"
+                  ],
+    "Shelmet":  [
+                    "stage1"
+                ],
+    "Accelgor":  [
+                     "stage2"
+                 ],
+    "Stunfisk":  [
+                     "solo"
+                 ],
+    "Mienfoo":  [
+                    "stage1"
+                ],
+    "Mienshao":  [
+                     "stage2"
+                 ],
+    "Druddigon":  [
+                      "solo"
+                  ],
+    "Golett":  [
+                   "stage1"
+               ],
+    "Golurk":  [
+                   "stage2"
+               ],
+    "Pawniard":  [
+                     "stage1"
+                 ],
+    "Bisharp":  [
+                    "stage2"
+                ],
+    "Bouffalant":  [
+                       "solo"
+                   ],
+    "Rufflet":  [
+                    "stage1"
+                ],
+    "Braviary":  [
+                     "stage2"
+                 ],
+    "Vullaby":  [
+                    "stage1"
+                ],
+    "Mandibuzz":  [
+                      "stage2"
+                  ],
+    "Heatmor":  [
+                    "solo"
+                ],
+    "Durant":  [
+                   "solo"
+               ],
+    "Deino":  [
+                  "stage1",
+                  "pseudo_legendary"
+              ],
+    "Zweilous":  [
+                     "stage2",
+                     "pseudo_legendary"
+                 ],
+    "Hydreigon":  [
+                      "stage3",
+                      "pseudo_legendary"
+                  ],
+    "Larvesta":  [
+                     "stage1"
+                 ],
+    "Volcarona":  [
+                      "stage2"
+                  ],
+    "Cobalion":  [
+                     "solo",
+                     "legendary"
+                 ],
+    "Terrakion":  [
+                      "solo",
+                      "legendary"
+                  ],
+    "Virizion":  [
+                     "solo",
+                     "legendary"
+                 ],
+    "Tornadus":  [
+                     "solo",
+                     "legendary"
+                 ],
+    "Thundurus":  [
+                      "solo",
+                      "legendary"
+                  ],
+    "Reshiram":  [
+                     "solo",
+                     "legendary"
+                 ],
+    "Zekrom":  [
+                   "solo",
+                   "legendary"
+               ],
+    "Landorus":  [
+                     "solo",
+                     "legendary"
+                 ],
+    "Kyurem":  [
+                   "solo",
+                   "legendary"
+               ],
+    "Keldeo":  [
+                   "solo",
+                   "mythical"
+               ],
+    "Meloetta":  [
+                     "solo",
+                     "mythical"
+                 ],
+    "Genesect":  [
+                     "solo",
+                     "mythical"
+                 ],
+    "Chespin":  [
+                    "stage1",
+                    "starter"
+                ],
+    "Quilladin":  [
+                      "stage2",
+                      "starter"
+                  ],
+    "Chesnaught":  [
+                       "stage3",
+                       "starter"
+                   ],
+    "Fennekin":  [
+                     "stage1",
+                     "starter"
+                 ],
+    "Braixen":  [
+                    "stage2",
+                    "starter"
+                ],
+    "Delphox":  [
+                    "stage3",
+                    "starter"
+                ],
+    "Froakie":  [
+                    "stage1",
+                    "starter"
+                ],
+    "Frogadier":  [
+                      "stage2",
+                      "starter"
+                  ],
+    "Greninja":  [
+                     "stage3",
+                     "starter"
+                 ],
+    "Bunnelby":  [
+                     "stage1"
+                 ],
+    "Diggersby":  [
+                      "stage2"
+                  ],
+    "Fletchling":  [
+                       "stage1"
+                   ],
+    "Fletchinder":  [
+                        "stage2"
+                    ],
+    "Talonflame":  [
+                       "stage3"
+                   ],
+    "Scatterbug":  [
+                       "stage1"
+                   ],
+    "Spewpa":  [
+                   "stage2"
+               ],
+    "Vivillon":  [
+                     "stage3"
+                 ],
+    "Litleo":  [
+                   "stage1"
+               ],
+    "Pyroar":  [
+                   "stage2"
+               ],
+    "Flabebe":  [
+                    "stage1"
+                ],
+    "Floette":  [
+                    "stage2"
+                ],
+    "Florges":  [
+                    "stage3"
+                ],
+    "Skiddo":  [
+                   "stage1"
+               ],
+    "Gogoat":  [
+                   "stage2"
+               ],
+    "Pancham":  [
+                    "stage1"
+                ],
+    "Pangoro":  [
+                    "stage2"
+                ],
+    "Furfrou":  [
+                    "solo"
+                ],
+    "Espurr":  [
+                   "stage1"
+               ],
+    "Meowstic":  [
+                     "stage2"
+                 ],
+    "Honedge":  [
+                    "stage1"
+                ],
+    "Doublade":  [
+                     "stage2"
+                 ],
+    "Aegislash":  [
+                      "stage3"
+                  ],
+    "Spritzee":  [
+                     "stage1"
+                 ],
+    "Aromatisse":  [
+                       "stage2"
+                   ],
+    "Swirlix":  [
+                    "stage1"
+                ],
+    "Slurpuff":  [
+                     "stage2"
+                 ],
+    "Inkay":  [
+                  "stage1"
+              ],
+    "Malamar":  [
+                    "stage2"
+                ],
+    "Binacle":  [
+                    "stage1"
+                ],
+    "Barbaracle":  [
+                       "stage2"
+                   ],
+    "Skrelp":  [
+                   "stage1"
+               ],
+    "Dragalge":  [
+                     "stage2"
+                 ],
+    "Clauncher":  [
+                      "stage1"
+                  ],
+    "Clawitzer":  [
+                      "stage2"
+                  ],
+    "Helioptile":  [
+                       "stage1"
+                   ],
+    "Heliolisk":  [
+                      "stage2"
+                  ],
+    "Tyrunt":  [
+                   "stage1",
+                   "fossil"
+               ],
+    "Tyrantrum":  [
+                      "stage2",
+                      "fossil"
+                  ],
+    "Amaura":  [
+                   "stage1",
+                   "fossil"
+               ],
+    "Aurorus":  [
+                    "stage2",
+                    "fossil"
+                ],
+    "Sylveon":  [
+                    "stage2",
+                    "eevee_line"
+                ],
+    "Hawlucha":  [
+                     "solo"
+                 ],
+    "Dedenne":  [
+                    "solo"
+                ],
+    "Carbink":  [
+                    "solo"
+                ],
+    "Goomy":  [
+                  "stage1",
+                  "pseudo_legendary"
+              ],
+    "Sliggoo":  [
+                    "stage2",
+                    "pseudo_legendary"
+                ],
+    "Goodra":  [
+                   "stage3",
+                   "pseudo_legendary"
+               ],
+    "Klefki":  [
+                   "solo"
+               ],
+    "Phantump":  [
+                     "stage1"
+                 ],
+    "Trevenant":  [
+                      "stage2"
+                  ],
+    "Pumpkaboo":  [
+                      "stage1"
+                  ],
+    "Gourgeist":  [
+                      "stage2"
+                  ],
+    "Bergmite":  [
+                     "stage1"
+                 ],
+    "Avalugg":  [
+                    "stage2"
+                ],
+    "Noibat":  [
+                   "stage1"
+               ],
+    "Noivern":  [
+                    "stage2"
+                ],
+    "Xerneas":  [
+                    "solo",
+                    "legendary"
+                ],
+    "Yveltal":  [
+                    "solo",
+                    "legendary"
+                ],
+    "Zygarde":  [
+                    "solo",
+                    "legendary"
+                ],
+    "Diancie":  [
+                    "solo",
+                    "mythical"
+                ],
+    "Hoopa":  [
+                  "solo",
+                  "mythical"
+              ],
+    "Volcanion":  [
+                      "solo",
+                      "mythical"
+                  ],
+    "Rowlet":  [
+                   "stage1",
+                   "starter"
+               ],
+    "Dartrix":  [
+                    "stage2",
+                    "starter"
+                ],
+    "Decidueye":  [
+                      "stage3",
+                      "starter"
+                  ],
+    "Litten":  [
+                   "stage1",
+                   "starter"
+               ],
+    "Torracat":  [
+                     "stage2",
+                     "starter"
+                 ],
+    "Incineroar":  [
+                       "stage3",
+                       "starter"
+                   ],
+    "Popplio":  [
+                    "stage1",
+                    "starter"
+                ],
+    "Brionne":  [
+                    "stage2",
+                    "starter"
+                ],
+    "Primarina":  [
+                      "stage3",
+                      "starter"
+                  ],
+    "Pikipek":  [
+                    "stage1"
+                ],
+    "Trumbeak":  [
+                     "stage2"
+                 ],
+    "Toucannon":  [
+                      "stage3"
+                  ],
+    "Yungoos":  [
+                    "stage1"
+                ],
+    "Gumshoos":  [
+                     "stage2"
+                 ],
+    "Grubbin":  [
+                    "stage1"
+                ],
+    "Charjabug":  [
+                      "stage2"
+                  ],
+    "Vikavolt":  [
+                     "stage3"
+                 ],
+    "Crabrawler":  [
+                       "stage1"
+                   ],
+    "Crabominable":  [
+                         "stage2"
+                     ],
+    "Oricorio":  [
+                     "solo"
+                 ],
+    "Cutiefly":  [
+                     "stage1"
+                 ],
+    "Ribombee":  [
+                     "stage2"
+                 ],
+    "Rockruff":  [
+                     "stage1"
+                 ],
+    "Lycanroc":  [
+                     "stage2"
+                 ],
+    "Wishiwashi":  [
+                       "solo"
+                   ],
+    "Mareanie":  [
+                     "stage1"
+                 ],
+    "Toxapex":  [
+                    "stage2"
+                ],
+    "Mudbray":  [
+                    "stage1"
+                ],
+    "Mudsdale":  [
+                     "stage2"
+                 ],
+    "Dewpider":  [
+                     "stage1"
+                 ],
+    "Araquanid":  [
+                      "stage2"
+                  ],
+    "Fomantis":  [
+                     "stage1"
+                 ],
+    "Lurantis":  [
+                     "stage2"
+                 ],
+    "Morelull":  [
+                     "stage1"
+                 ],
+    "Shiinotic":  [
+                      "stage2"
+                  ],
+    "Salandit":  [
+                     "stage1"
+                 ],
+    "Salazzle":  [
+                     "stage2"
+                 ],
+    "Stufful":  [
+                    "stage1"
+                ],
+    "Bewear":  [
+                   "stage2"
+               ],
+    "Bounsweet":  [
+                      "stage1"
+                  ],
+    "Steenee":  [
+                    "stage2"
+                ],
+    "Tsareena":  [
+                     "stage3"
+                 ],
+    "Comfey":  [
+                   "solo"
+               ],
+    "Oranguru":  [
+                     "solo"
+                 ],
+    "Passimian":  [
+                      "solo"
+                  ],
+    "Wimpod":  [
+                   "stage1"
+               ],
+    "Golisopod":  [
+                      "stage2"
+                  ],
+    "Sandygast":  [
+                      "stage1"
+                  ],
+    "Palossand":  [
+                      "stage2"
+                  ],
+    "Pyukumuku":  [
+                      "solo"
+                  ],
+    "Type: Null":  [
+                       "stage1",
+                       "legendary"
+                   ],
+    "Silvally":  [
+                     "stage2",
+                     "legendary"
+                 ],
+    "Minior":  [
+                   "solo"
+               ],
+    "Komala":  [
+                   "solo"
+               ],
+    "Turtonator":  [
+                       "solo"
+                   ],
+    "Togedemaru":  [
+                       "solo"
+                   ],
+    "Mimikyu":  [
+                    "solo"
+                ],
+    "Bruxish":  [
+                    "solo"
+                ],
+    "Drampa":  [
+                   "solo"
+               ],
+    "Dhelmise":  [
+                     "solo"
+                 ],
+    "Jangmo-o":  [
+                     "stage1",
+                     "pseudo_legendary"
+                 ],
+    "Hakamo-o":  [
+                     "stage2",
+                     "pseudo_legendary"
+                 ],
+    "Kommo-o":  [
+                    "stage3",
+                    "pseudo_legendary"
+                ],
+    "Tapu Koko":  [
+                      "solo",
+                      "legendary"
+                  ],
+    "Tapu Lele":  [
+                      "solo",
+                      "legendary"
+                  ],
+    "Tapu Bulu":  [
+                      "solo",
+                      "legendary"
+                  ],
+    "Tapu Fini":  [
+                      "solo",
+                      "legendary"
+                  ],
+    "Cosmog":  [
+                   "stage1",
+                   "legendary"
+               ],
+    "Cosmoem":  [
+                    "stage2",
+                    "legendary"
+                ],
+    "Solgaleo":  [
+                     "stage3",
+                     "legendary"
+                 ],
+    "Lunala":  [
+                   "stage3",
+                   "legendary"
+               ],
+    "Nihilego":  [
+                     "solo"
+                 ],
+    "Buzzwole":  [
+                     "solo"
+                 ],
+    "Pheromosa":  [
+                      "solo"
+                  ],
+    "Xurkitree":  [
+                      "solo"
+                  ],
+    "Celesteela":  [
+                       "solo"
+                   ],
+    "Kartana":  [
+                    "solo"
+                ],
+    "Guzzlord":  [
+                     "solo"
+                 ],
+    "Necrozma":  [
+                     "solo",
+                     "legendary"
+                 ],
+    "Magearna":  [
+                     "solo",
+                     "mythical"
+                 ],
+    "Marshadow":  [
+                      "solo",
+                      "mythical"
+                  ],
+    "Poipole":  [
+                    "stage1"
+                ],
+    "Naganadel":  [
+                      "stage2"
+                  ],
+    "Stakataka":  [
+                      "solo"
+                  ],
+    "Blacephalon":  [
+                        "solo"
+                    ],
+    "Zeraora":  [
+                    "solo",
+                    "mythical"
+                ],
+    "Meltan":  [
+                   "solo",
+                   "mythical"
+               ],
+    "Melmetal":  [
+                     "solo",
+                     "mythical"
+                 ],
+    "Grookey":  [
+                    "stage1",
+                    "starter"
+                ],
+    "Thwackey":  [
+                     "stage2",
+                     "starter"
+                 ],
+    "Rillaboom":  [
+                      "stage3",
+                      "starter"
+                  ],
+    "Scorbunny":  [
+                      "stage1",
+                      "starter"
+                  ],
+    "Raboot":  [
+                   "stage2",
+                   "starter"
+               ],
+    "Cinderace":  [
+                      "stage3",
+                      "starter"
+                  ],
+    "Sobble":  [
+                   "stage1",
+                   "starter"
+               ],
+    "Drizzile":  [
+                     "stage2",
+                     "starter"
+                 ],
+    "Inteleon":  [
+                     "stage3",
+                     "starter"
+                 ],
+    "Skwovet":  [
+                    "stage1"
+                ],
+    "Greedent":  [
+                     "stage2"
+                 ],
+    "Rookidee":  [
+                     "stage1"
+                 ],
+    "Corvisquire":  [
+                        "stage2"
+                    ],
+    "Corviknight":  [
+                        "stage3"
+                    ],
+    "Blipbug":  [
+                    "stage1"
+                ],
+    "Dottler":  [
+                    "stage2"
+                ],
+    "Orbeetle":  [
+                     "stage3"
+                 ],
+    "Nickit":  [
+                   "stage1"
+               ],
+    "Thievul":  [
+                    "stage2"
+                ],
+    "Gossifleur":  [
+                       "stage1"
+                   ],
+    "Eldegoss":  [
+                     "stage2"
+                 ],
+    "Wooloo":  [
+                   "stage1"
+               ],
+    "Dubwool":  [
+                    "stage2"
+                ],
+    "Chewtle":  [
+                    "stage1"
+                ],
+    "Drednaw":  [
+                    "stage2"
+                ],
+    "Yamper":  [
+                   "stage1"
+               ],
+    "Boltund":  [
+                    "stage2"
+                ],
+    "Rolycoly":  [
+                     "stage1"
+                 ],
+    "Carkol":  [
+                   "stage2"
+               ],
+    "Coalossal":  [
+                      "stage3"
+                  ],
+    "Applin":  [
+                   "stage1"
+               ],
+    "Flapple":  [
+                    "stage2"
+                ],
+    "Appletun":  [
+                     "stage2"
+                 ],
+    "Silicobra":  [
+                      "stage1"
+                  ],
+    "Sandaconda":  [
+                       "stage2"
+                   ],
+    "Cramorant":  [
+                      "solo"
+                  ],
+    "Arrokuda":  [
+                     "stage1"
+                 ],
+    "Barraskewda":  [
+                        "stage2"
+                    ],
+    "Toxel":  [
+                  "stage1"
+              ],
+    "Toxtricity":  [
+                       "stage2"
+                   ],
+    "Sizzlipede":  [
+                       "stage1"
+                   ],
+    "Centiskorch":  [
+                        "stage2"
+                    ],
+    "Clobbopus":  [
+                      "stage1"
+                  ],
+    "Grapploct":  [
+                      "stage2"
+                  ],
+    "Sinistea":  [
+                     "stage1"
+                 ],
+    "Polteageist":  [
+                        "stage2"
+                    ],
+    "Hatenna":  [
+                    "stage1"
+                ],
+    "Hattrem":  [
+                    "stage2"
+                ],
+    "Hatterene":  [
+                      "stage3"
+                  ],
+    "Impidimp":  [
+                     "stage1"
+                 ],
+    "Morgrem":  [
+                    "stage2"
+                ],
+    "Grimmsnarl":  [
+                       "stage3"
+                   ],
+    "Obstagoon":  [
+                      "stage3"
+                  ],
+    "Perrserker":  [
+                       "stage2"
+                   ],
+    "Cursola":  [
+                    "stage2"
+                ],
+    "Sirfetch\u0027d":  [
+                            "stage2"
+                        ],
+    "Mr. Rime":  [
+                     "stage3"
+                 ],
+    "Runerigus":  [
+                      "stage2"
+                  ],
+    "Milcery":  [
+                    "stage1"
+                ],
+    "Alcremie":  [
+                     "stage2"
+                 ],
+    "Falinks":  [
+                    "solo"
+                ],
+    "Pincurchin":  [
+                       "solo"
+                   ],
+    "Snom":  [
+                 "stage1"
+             ],
+    "Frosmoth":  [
+                     "stage2"
+                 ],
+    "Stonjourner":  [
+                        "solo"
+                    ],
+    "Eiscue":  [
+                   "solo"
+               ],
+    "Indeedee":  [
+                     "solo"
+                 ],
+    "Morpeko":  [
+                    "solo"
+                ],
+    "Cufant":  [
+                   "stage1"
+               ],
+    "Copperajah":  [
+                       "stage2"
+                   ],
+    "Dracozolt":  [
+                      "solo",
+                      "fossil"
+                  ],
+    "Arctozolt":  [
+                      "solo",
+                      "fossil"
+                  ],
+    "Dracovish":  [
+                      "solo",
+                      "fossil"
+                  ],
+    "Arctovish":  [
+                      "solo",
+                      "fossil"
+                  ],
+    "Duraludon":  [
+                      "stage1"
+                  ],
+    "Dreepy":  [
+                   "stage1",
+                   "pseudo_legendary"
+               ],
+    "Drakloak":  [
+                     "stage2",
+                     "pseudo_legendary"
+                 ],
+    "Dragapult":  [
+                      "stage3",
+                      "pseudo_legendary"
+                  ],
+    "Zacian":  [
+                   "solo",
+                   "legendary"
+               ],
+    "Zamazenta":  [
+                      "solo",
+                      "legendary"
+                  ],
+    "Eternatus":  [
+                      "solo",
+                      "legendary"
+                  ],
+    "Kubfu":  [
+                  "stage1",
+                  "legendary"
+              ],
+    "Urshifu":  [
+                    "stage2",
+                    "legendary"
+                ],
+    "Zarude":  [
+                   "solo",
+                   "mythical"
+               ],
+    "Regieleki":  [
+                      "solo",
+                      "legendary"
+                  ],
+    "Regidrago":  [
+                      "solo",
+                      "legendary"
+                  ],
+    "Glastrier":  [
+                      "solo",
+                      "legendary"
+                  ],
+    "Spectrier":  [
+                      "solo",
+                      "legendary"
+                  ],
+    "Calyrex":  [
+                    "solo",
+                    "legendary"
+                ],
+    "Wyrdeer":  [
+                    "stage2"
+                ],
+    "Kleavor":  [
+                    "stage2"
+                ],
+    "Ursaluna":  [
+                     "stage3"
+                 ],
+    "Basculegion":  [
+                        "stage2"
+                    ],
+    "Sneasler":  [
+                     "stage2"
+                 ],
+    "Overqwil":  [
+                     "stage2"
+                 ],
+    "Enamorus":  [
+                     "solo",
+                     "legendary"
+                 ],
+    "Sprigatito":  [
+                       "stage1",
+                       "starter"
+                   ],
+    "Floragato":  [
+                      "stage2",
+                      "starter"
+                  ],
+    "Meowscarada":  [
+                        "stage3",
+                        "starter"
+                    ],
+    "Fuecoco":  [
+                    "stage1",
+                    "starter"
+                ],
+    "Crocalor":  [
+                     "stage2",
+                     "starter"
+                 ],
+    "Skeledirge":  [
+                       "stage3",
+                       "starter"
+                   ],
+    "Quaxly":  [
+                   "stage1",
+                   "starter"
+               ],
+    "Quaxwell":  [
+                     "stage2",
+                     "starter"
+                 ],
+    "Quaquaval":  [
+                      "stage3",
+                      "starter"
+                  ],
+    "Lechonk":  [
+                    "stage1"
+                ],
+    "Oinkologne":  [
+                       "stage2"
+                   ],
+    "Tarountula":  [
+                       "stage1"
+                   ],
+    "Spidops":  [
+                    "stage2"
+                ],
+    "Nymble":  [
+                   "stage1"
+               ],
+    "Lokix":  [
+                  "stage2"
+              ],
+    "Pawmi":  [
+                  "stage1"
+              ],
+    "Pawmo":  [
+                  "stage2"
+              ],
+    "Pawmot":  [
+                   "stage3"
+               ],
+    "Tandemaus":  [
+                      "stage1"
+                  ],
+    "Maushold":  [
+                     "stage2"
+                 ],
+    "Fidough":  [
+                    "stage1"
+                ],
+    "Dachsbun":  [
+                     "stage2"
+                 ],
+    "Smoliv":  [
+                   "stage1"
+               ],
+    "Dolliv":  [
+                   "stage2"
+               ],
+    "Arboliva":  [
+                     "stage3"
+                 ],
+    "Squawkabilly":  [
+                         "solo"
+                     ],
+    "Nacli":  [
+                  "stage1"
+              ],
+    "Naclstack":  [
+                      "stage2"
+                  ],
+    "Garganacl":  [
+                      "stage3"
+                  ],
+    "Charcadet":  [
+                      "stage1"
+                  ],
+    "Armarouge":  [
+                      "stage2"
+                  ],
+    "Ceruledge":  [
+                      "stage2"
+                  ],
+    "Tadbulb":  [
+                    "stage1"
+                ],
+    "Bellibolt":  [
+                      "stage2"
+                  ],
+    "Wattrel":  [
+                    "stage1"
+                ],
+    "Kilowattrel":  [
+                        "stage2"
+                    ],
+    "Maschiff":  [
+                     "stage1"
+                 ],
+    "Mabosstiff":  [
+                       "stage2"
+                   ],
+    "Shroodle":  [
+                     "stage1"
+                 ],
+    "Grafaiai":  [
+                     "stage2"
+                 ],
+    "Bramblin":  [
+                     "stage1"
+                 ],
+    "Brambleghast":  [
+                         "stage2"
+                     ],
+    "Toedscool":  [
+                      "stage1"
+                  ],
+    "Toedscruel":  [
+                       "stage2"
+                   ],
+    "Klawf":  [
+                  "solo"
+              ],
+    "Capsakid":  [
+                     "stage1"
+                 ],
+    "Scovillain":  [
+                       "stage2"
+                   ],
+    "Rellor":  [
+                   "stage1"
+               ],
+    "Rabsca":  [
+                   "stage2"
+               ],
+    "Flittle":  [
+                    "stage1"
+                ],
+    "Espathra":  [
+                     "stage2"
+                 ],
+    "Tinkatink":  [
+                      "stage1"
+                  ],
+    "Tinkatuff":  [
+                      "stage2"
+                  ],
+    "Tinkaton":  [
+                     "stage3"
+                 ],
+    "Wiglett":  [
+                    "stage1"
+                ],
+    "Wugtrio":  [
+                    "stage2"
+                ],
+    "Bombirdier":  [
+                       "solo"
+                   ],
+    "Finizen":  [
+                    "stage1"
+                ],
+    "Palafin":  [
+                    "stage2"
+                ],
+    "Varoom":  [
+                   "stage1"
+               ],
+    "Revavroom":  [
+                      "stage2"
+                  ],
+    "Cyclizar":  [
+                     "solo"
+                 ],
+    "Orthworm":  [
+                     "solo"
+                 ],
+    "Glimmet":  [
+                    "stage1"
+                ],
+    "Glimmora":  [
+                     "stage2"
+                 ],
+    "Greavard":  [
+                     "stage1"
+                 ],
+    "Houndstone":  [
+                       "stage2"
+                   ],
+    "Flamigo":  [
+                    "solo"
+                ],
+    "Cetoddle":  [
+                     "stage1"
+                 ],
+    "Cetitan":  [
+                    "stage2"
+                ],
+    "Veluza":  [
+                   "solo"
+               ],
+    "Dondozo":  [
+                    "solo"
+                ],
+    "Tatsugiri":  [
+                      "solo"
+                  ],
+    "Annihilape":  [
+                       "stage3"
+                   ],
+    "Clodsire":  [
+                     "stage2"
+                 ],
+    "Farigiraf":  [
+                      "stage2"
+                  ],
+    "Dudunsparce":  [
+                        "stage2"
+                    ],
+    "Kingambit":  [
+                      "stage3"
+                  ],
+    "Great Tusk":  [
+                       "solo"
+                   ],
+    "Scream Tail":  [
+                        "solo"
+                    ],
+    "Brute Bonnet":  [
+                         "solo"
+                     ],
+    "Flutter Mane":  [
+                         "solo"
+                     ],
+    "Slither Wing":  [
+                         "solo"
+                     ],
+    "Sandy Shocks":  [
+                         "solo"
+                     ],
+    "Iron Treads":  [
+                        "solo"
+                    ],
+    "Iron Bundle":  [
+                        "solo"
+                    ],
+    "Iron Hands":  [
+                       "solo"
+                   ],
+    "Iron Jugulis":  [
+                         "solo"
+                     ],
+    "Iron Moth":  [
+                      "solo"
+                  ],
+    "Iron Thorns":  [
+                        "solo"
+                    ],
+    "Frigibax":  [
+                     "stage1",
+                     "pseudo_legendary"
+                 ],
+    "Arctibax":  [
+                     "stage2",
+                     "pseudo_legendary"
+                 ],
+    "Baxcalibur":  [
+                       "stage3",
+                       "pseudo_legendary"
+                   ],
+    "Gimmighoul":  [
+                       "stage1"
+                   ],
+    "Gholdengo":  [
+                      "stage2"
+                  ],
+    "Wo-Chien":  [
+                     "solo",
+                     "legendary"
+                 ],
+    "Chien-Pao":  [
+                      "solo",
+                      "legendary"
+                  ],
+    "Ting-Lu":  [
+                    "solo",
+                    "legendary"
+                ],
+    "Chi-Yu":  [
+                   "solo",
+                   "legendary"
+               ],
+    "Roaring Moon":  [
+                         "solo"
+                     ],
+    "Iron Valiant":  [
+                         "solo"
+                     ],
+    "Koraidon":  [
+                     "solo",
+                     "legendary"
+                 ],
+    "Miraidon":  [
+                     "solo",
+                     "legendary"
+                 ],
+    "Walking Wake":  [
+                         "solo"
+                     ],
+    "Iron Leaves":  [
+                        "solo"
+                    ],
+    "Dipplin":  [
+                    "stage2"
+                ],
+    "Poltchageist":  [
+                         "stage1"
+                     ],
+    "Sinistcha":  [
+                      "stage2"
+                  ],
+    "Okidogi":  [
+                    "solo",
+                    "legendary"
+                ],
+    "Munkidori":  [
+                      "solo",
+                      "legendary"
+                  ],
+    "Fezandipiti":  [
+                        "solo",
+                        "legendary"
+                    ],
+    "Ogerpon":  [
+                    "solo",
+                    "legendary"
+                ],
+    "Archaludon":  [
+                       "stage2"
+                   ],
+    "Hydrapple":  [
+                      "stage3"
+                  ],
+    "Gouging Fire":  [
+                         "solo"
+                     ],
+    "Raging Bolt":  [
+                        "solo"
+                    ],
+    "Iron Boulder":  [
+                         "solo"
+                     ],
+    "Iron Crown":  [
+                       "solo"
+                   ],
+    "Terapagos":  [
+                      "solo",
+                      "legendary"
+                  ],
+    "Pecharunt":  [
+                      "solo",
+                      "mythical"
+                  ]
+}
