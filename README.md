@@ -1,51 +1,56 @@
-# Pokébattler Stats Viewer
+# Pokebattler Stats Viewer
 
-A polished React + MUI frontend for visualizing Pokémon autobattler stats exported from a Python/Pygame game.
+A React + MUI frontend for visualizing Pokemon autobattler stats exported from the Python/Pygame game.
 
 ## Features
 
-- Upload local JSON stats files.
-- KPI cards for win rate, damage, DPS, KOs, deaths, and status damage.
-- Charts for:
-  - Total damage per Pokémon
-  - Damage by move type
-- Mode summary chips for `2v2`, `3v3`, `Royale`, `Tournament`, and `Boss` (or any mode in your data).
-- Sort/filter-friendly Pokémon stats table.
+- Loads the local `pokemon_stats.json` export by default.
+- Uploads alternate JSON stats files.
+- KPI cards for Pokemon count, appearances, win rate, damage, hits, KOs, and deaths.
+- Charts for top damage by Pokemon and damage by move type.
+- Mode summary chips for `2v2`, `3v3`, `royale`, `tournament`, `boss`, or any mode in your data.
+- Sort/filter-friendly Pokemon stats table.
 
-## Expected JSON shape
+## Expected JSON Shape
+
+The viewer supports the current export format:
 
 ```json
 {
-  "battles": [
-    { "id": 1, "mode": "2v2", "winner": true, "damage": 1230, "dps": 54, "kos": 2, "deaths": 1 }
-  ],
-  "pokemon": [
-    {
-      "name": "Pikachu",
-      "totalDamage": 2190,
-      "avgDps": 61,
-      "kos": 4,
-      "avgKos": 0.8,
-      "deaths": 3,
-      "avgDeaths": 0.6,
-      "wins": 3,
+  "version": 2,
+  "overall": {
+    "Pikachu": {
       "battles": 5,
-      "moveTypes": { "electric": 1700, "normal": 490 },
-      "statusDamage": 160
+      "wins": 3,
+      "kos": 4,
+      "deaths": 2,
+      "finishes": 1,
+      "damage_dealt": 2190,
+      "damage_taken": 1200,
+      "hits": 30,
+      "best_hit": 180,
+      "damage_by_type": { "electric": 1700, "normal": 490 }
     }
-  ]
+  },
+  "by_mode": {
+    "royale": {
+      "Pikachu": {
+        "battles": 2,
+        "wins": 1,
+        "kos": 2,
+        "deaths": 1,
+        "finishes": 1
+      }
+    }
+  }
 }
 ```
 
-## Run locally
+The older demo shape with top-level `pokemon` and `battles` arrays is still accepted for uploads.
+
+## Run Locally
 
 ```bash
 npm install
 npm run dev
 ```
-
-## Next steps
-
-- Add filters by battle mode, Pokémon type, and date range.
-- Add trend charts if you include timestamps per battle.
-- Add CSV export and shareable report snapshots.
