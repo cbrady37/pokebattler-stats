@@ -1174,6 +1174,10 @@ const FightRecapCard = ({ entry, groupedTournament = false }) => {
     if ((isRoyale || isOneVsOne || isTournament) && team.fighters.length === 1) {
       return team.fighters[0].name;
     }
+    const savedTeamName = entry.team_names?.[String(team.team)] ?? entry.team_names?.[team.team];
+    if (savedTeamName) {
+      return savedTeamName;
+    }
     if (isBoss) {
       return number(team.team) === 0 ? 'Boss' : 'Challengers';
     }
