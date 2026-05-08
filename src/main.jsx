@@ -8,7 +8,7 @@ const theme = createTheme({
     mode: 'dark',
     primary: { main: '#74c0fc' },
     secondary: { main: '#f783ac' },
-    background: { default: '#101217', paper: '#181c24' },
+    background: { default: '#070a10', paper: '#0d1119' },
     text: { primary: '#eef2f8', secondary: '#9ca8ba' },
   },
   shape: { borderRadius: 8 },
@@ -18,9 +18,10 @@ const theme = createTheme({
       styleOverrides: {
         root: {
           backgroundImage: 'none',
-          backgroundColor: 'rgba(24, 28, 36, 0.94)',
-          border: '1px solid #30384b',
-          boxShadow: '0 16px 40px rgba(0, 0, 0, 0.28)',
+          backgroundColor: 'rgba(13, 17, 25, 0.96)',
+          border: '1px solid rgba(132, 146, 166, 0.20)',
+          borderRadius: 8,
+          boxShadow: '0 20px 54px rgba(0, 0, 0, 0.34)',
         },
       },
     },
