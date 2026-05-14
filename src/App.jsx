@@ -18,7 +18,10 @@ import {
   Typography,
 } from '@mui/material';
 import { DataGrid } from '@mui/x-data-grid';
+import BlockIcon from '@mui/icons-material/Block';
+import RestoreIcon from '@mui/icons-material/Restore';
 import UploadFileIcon from '@mui/icons-material/UploadFile';
+import YouTubeIcon from '@mui/icons-material/YouTube';
 import SearchIcon from '@mui/icons-material/Search';
 import {
   Bar,
@@ -119,16 +122,19 @@ const views = [
 
 const liveStatsSources = [
   {
+    id: 'game',
     label: 'Live game stats',
     url: '/@fs/C:/Users/Cory/Documents/coding/pokemon_stats.json',
   },
   {
+    id: 'video',
     label: 'Live video stats',
     url: '/@fs/C:/Users/Cory/Documents/coding/pokemon_video_stats.json',
   },
 ];
 
 const fallbackStatsSource = 'Bundled repo stats';
+const writableStatsSourceIds = new Set(liveStatsSources.map((source) => source.id));
 
 const statSetLabels = {
   overall: 'Overall',
@@ -399,13 +405,30 @@ const isExcludedFightEntry = (entry) => {
   return ['excluded', 'deleted', 'broken'].includes(String(status).toLowerCase());
 };
 
+const entryHasYoutubeGroup = (entry) => (
+  entry?.video_status === 'included'
+  || (Array.isArray(entry?.stat_groups) && entry.stat_groups.includes('youtube'))
+);
+
+const getFightEntryKey = (entry) => [
+  entry?.id ?? '',
+  entry?.saved_at ?? '',
+  entry?.mode ?? '',
+  entry?.winner ?? '',
+  Array.isArray(entry?.fighters) ? entry.fighters.map((fighter) => fighter?.name).filter(Boolean).join(',') : '',
+].join('|');
+
 const fightEntryInStatSet = (entry, statSet) => {
   if (isExcludedFightEntry(entry)) return false;
   if (statSet === 'overall') return true;
   const groups = new Set(Array.isArray(entry?.stat_groups) ? entry.stat_groups : []);
-  if (entry?.video_status === 'included') groups.add('youtube');
+  if (entryHasYoutubeGroup(entry)) groups.add('youtube');
   return groups.has(statSet);
 };
+
+const fightEntryInRecapStatSet = (entry, statSet) => (
+  statSet === 'overall' || fightEntryInStatSet(entry, statSet)
+);
 
 const fightEntryInMode = (entry, mode) => (
   mode === 'overall' || String(entry?.mode ?? '').toLowerCase() === String(mode).toLowerCase()
@@ -1132,7 +1155,15 @@ const SegmentedControl = ({ label, value, options, onChange, tone = 'cyan' }) =>
   );
 };
 
-const FightRecapCard = ({ entry, groupedTournament = false }) => {
+const FightRecapCard = ({
+  entry,
+  groupedTournament = false,
+  isPending = false,
+  onExclude,
+  onRestore,
+  onIncludeYoutube,
+  onRemoveYoutube,
+}) => {
   const fighters = Array.isArray(entry.fighters) ? entry.fighters : [];
   const winnerNames = new Set(entry.winners ?? (entry.winner ? [entry.winner] : []));
   const winner = fighters.find((fighter) => winnerNames.has(fighter.name)) ?? fighters.find((fighter) => fighter.winner);
@@ -1150,10 +1181,11 @@ const FightRecapCard = ({ entry, groupedTournament = false }) => {
       : `Tournament ${tournamentMeta.number || '?'}${tournamentMeta.roundLabel ? ` | ${tournamentMeta.roundLabel}` : ''}`)
     : `${entry.mode ?? 'battle'} #${entry.id}`;
   const statGroups = new Set(Array.isArray(entry.stat_groups) ? entry.stat_groups : []);
-  if (entry.video_status === 'included') statGroups.add('youtube');
+  if (entryHasYoutubeGroup(entry)) statGroups.add('youtube');
+  const isYoutubeIncluded = statGroups.has('youtube');
   const groupLabel = [
     isExcluded ? 'Excluded' : 'Overall',
-    statGroups.has('youtube') ? 'YouTube' : null,
+    isYoutubeIncluded ? 'YouTube' : null,
     statGroups.has('solo') ? 'Solo' : null,
   ].filter(Boolean).join(' / ');
   const mvp = fighters.reduce((best, fighter) => {
@@ -1209,6 +1241,60 @@ const FightRecapCard = ({ entry, groupedTournament = false }) => {
               fontWeight: 850,
             }}
           />
+          {!isExcluded && (
+            <Button
+              size="small"
+              variant="outlined"
+              startIcon={isYoutubeIncluded ? <RestoreIcon /> : <YouTubeIcon />}
+              disabled={isPending}
+              onClick={() => (
+                isYoutubeIncluded
+                  ? onRemoveYoutube?.(entry)
+                  : onIncludeYoutube?.(entry)
+              )}
+              sx={{
+                borderColor: isYoutubeIncluded ? 'rgba(255, 123, 123, 0.44)' : 'rgba(255, 123, 123, 0.34)',
+                color: isYoutubeIncluded ? '#ff7b7b' : '#ff9b9b',
+                fontWeight: 850,
+                textTransform: 'none',
+              }}
+            >
+              {isYoutubeIncluded ? 'Remove YT' : 'Include YT'}
+            </Button>
+          )}
+          {isExcluded ? (
+            <Button
+              size="small"
+              variant="outlined"
+              startIcon={<RestoreIcon />}
+              disabled={isPending}
+              onClick={() => onRestore?.(entry)}
+              sx={{
+                borderColor: 'rgba(80, 227, 107, 0.42)',
+                color: '#69db7c',
+                fontWeight: 850,
+                textTransform: 'none',
+              }}
+            >
+              Restore
+            </Button>
+          ) : (
+            <Button
+              size="small"
+              variant="outlined"
+              startIcon={<BlockIcon />}
+              disabled={isPending}
+              onClick={() => onExclude?.(entry)}
+              sx={{
+                borderColor: 'rgba(255, 123, 123, 0.38)',
+                color: isExcluded ? 'rgba(255, 123, 123, 0.48)' : '#ff7b7b',
+                fontWeight: 850,
+                textTransform: 'none',
+              }}
+            >
+              Exclude
+            </Button>
+          )}
           {winner && <PokemonSprite name={winner.name} size={72} />}
         </Stack>
       </Stack>
@@ -1252,7 +1338,14 @@ const FightRecapCard = ({ entry, groupedTournament = false }) => {
   );
 };
 
-const TournamentRecapGroup = ({ group }) => {
+const TournamentRecapGroup = ({
+  group,
+  pendingFightActions,
+  onExclude,
+  onRestore,
+  onIncludeYoutube,
+  onRemoveYoutube,
+}) => {
   const rounds = group.entries.map((entry) => getTournamentMeta(entry).roundLabel || `Fight #${entry.id}`);
   const finalEntry = [...group.entries].reverse().find((entry) => String(getTournamentMeta(entry).roundLabel).startsWith('Final'));
   const latestEntry = group.entries[group.entries.length - 1];
@@ -1313,7 +1406,15 @@ const TournamentRecapGroup = ({ group }) => {
       <Box sx={recapGridSx}>
         {group.entries.map((entry) => (
           <Box key={entry.id} sx={{ minWidth: 0 }}>
-            <FightRecapCard entry={entry} groupedTournament />
+            <FightRecapCard
+              entry={entry}
+              groupedTournament
+              isPending={pendingFightActions.has(getFightEntryKey(entry))}
+              onExclude={onExclude}
+              onRestore={onRestore}
+              onIncludeYoutube={onIncludeYoutube}
+              onRemoveYoutube={onRemoveYoutube}
+            />
           </Box>
         ))}
       </Box>
@@ -1324,6 +1425,7 @@ const TournamentRecapGroup = ({ group }) => {
 function App() {
   const [stats, setStats] = useState(exportedStats);
   const [statsSource, setStatsSource] = useState(fallbackStatsSource);
+  const [statsSourceId, setStatsSourceId] = useState('bundled');
   const [statsLoadedAt, setStatsLoadedAt] = useState('');
   const [autoRefresh, setAutoRefresh] = useState(true);
   const [error, setError] = useState('');
@@ -1335,6 +1437,7 @@ function App() {
   const [selectedTags, setSelectedTags] = useState([]);
   const [selectedPokemon, setSelectedPokemon] = useState('');
   const [activeDamageType, setActiveDamageType] = useState('');
+  const [pendingFightActions, setPendingFightActions] = useState(() => new Set());
   const clearActiveDamageType = () => setActiveDamageType('');
   const liveStatsTextRef = useRef('');
   const normalizedStats = useMemo(() => normalizeStats(stats), [stats]);
@@ -1371,6 +1474,7 @@ function App() {
           liveStatsTextRef.current = text;
           setStats(parsed);
           setStatsSource(source.label);
+          setStatsSourceId(source.id);
           setStatsLoadedAt(new Date().toLocaleTimeString([], { hour: 'numeric', minute: '2-digit', second: '2-digit' }));
           setError('');
           return;
@@ -1381,6 +1485,7 @@ function App() {
 
       if (!cancelled && !liveStatsTextRef.current) {
         setStatsSource(fallbackStatsSource);
+        setStatsSourceId('bundled');
       }
     };
 
@@ -1405,6 +1510,53 @@ function App() {
       setMode('overall');
     }
   }, [availableModes, mode]);
+
+  const persistFightEntryAction = async (entry, action) => {
+    const key = getFightEntryKey(entry);
+    const pendingKey = key;
+
+    if (!writableStatsSourceIds.has(statsSourceId)) {
+      setError('Use live local stats before changing a fight. Uploaded and bundled stats cannot be rewritten from the viewer.');
+      return;
+    }
+
+    setPendingFightActions((current) => {
+      const next = new Set(current);
+      next.add(pendingKey);
+      return next;
+    });
+
+    try {
+      const response = await fetch('/api/fight-entry', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ source: statsSourceId, key, action }),
+      });
+      const payload = await response.json().catch(() => ({}));
+      if (!response.ok) {
+        throw new Error(payload.error || 'Could not update the stats file.');
+      }
+
+      normalizeStats(payload.stats);
+      liveStatsTextRef.current = '';
+      setStats(payload.stats);
+      setStatsLoadedAt(new Date().toLocaleTimeString([], { hour: 'numeric', minute: '2-digit', second: '2-digit' }));
+      setError('');
+    } catch (actionError) {
+      setError(`Could not update stats file: ${actionError.message}`);
+    } finally {
+      setPendingFightActions((current) => {
+        const next = new Set(current);
+        next.delete(pendingKey);
+        return next;
+      });
+    }
+  };
+
+  const excludeFightFromViewer = (entry) => persistFightEntryAction(entry, 'exclude');
+  const restoreFightToViewer = (entry) => persistFightEntryAction(entry, 'restore');
+  const includeFightInYoutube = (entry) => persistFightEntryAction(entry, 'include-youtube');
+  const removeFightFromYoutube = (entry) => persistFightEntryAction(entry, 'remove-youtube');
 
   const activePokemon = mode === 'overall'
     ? activeStats.overall
@@ -1667,8 +1819,9 @@ function App() {
   ].filter((tier) => tier.rows.length);
   const recapEntries = useMemo(
     () => [...normalizedStats.entries]
+      .filter((entry) => fightEntryInRecapStatSet(entry, statSet))
       .filter((entry) => mode === 'overall' || String(entry.mode ?? '').toLowerCase() === String(mode).toLowerCase()),
-    [mode, normalizedStats.entries],
+    [mode, normalizedStats.entries, statSet],
   );
   const recapGroups = useMemo(() => {
     const groupMap = new Map();
@@ -1714,6 +1867,7 @@ function App() {
       liveStatsTextRef.current = text;
       setStats(parsed);
       setStatsSource(`Uploaded ${file.name}`);
+      setStatsSourceId('uploaded');
       setStatsLoadedAt(new Date().toLocaleTimeString([], { hour: 'numeric', minute: '2-digit', second: '2-digit' }));
       setAutoRefresh(false);
       setStatSet('overall');
@@ -2622,10 +2776,25 @@ function App() {
               <Box sx={recapGridSx}>
                 {recapGroups.map((group) => (
                   group.type === 'tournament' ? (
-                    <TournamentRecapGroup key={group.id} group={group} />
+                    <TournamentRecapGroup
+                      key={group.id}
+                      group={group}
+                      pendingFightActions={pendingFightActions}
+                      onExclude={excludeFightFromViewer}
+                      onRestore={restoreFightToViewer}
+                      onIncludeYoutube={includeFightInYoutube}
+                      onRemoveYoutube={removeFightFromYoutube}
+                    />
                   ) : (
                     <Box key={group.id} sx={{ minWidth: 0 }}>
-                      <FightRecapCard entry={group.entry} />
+                      <FightRecapCard
+                        entry={group.entry}
+                        isPending={pendingFightActions.has(getFightEntryKey(group.entry))}
+                        onExclude={excludeFightFromViewer}
+                        onRestore={restoreFightToViewer}
+                        onIncludeYoutube={includeFightInYoutube}
+                        onRemoveYoutube={removeFightFromYoutube}
+                      />
                     </Box>
                   )
                 ))}
